@@ -10,5 +10,5 @@ myImage.onclick = () => {
   myImage.setAttribute("src", "images/yellowlab.jpeg");
  } else {
    myImage.setAttribute("src", "images/blacklab.jpeg");
-  }
+ }
 };

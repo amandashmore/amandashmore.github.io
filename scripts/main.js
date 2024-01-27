@@ -5,9 +5,10 @@ const snoopybutton = document.querySelector("h5")
 myHeading.addEventListener("click", function () {
     myHeading.textContent = "Welcome to Amanda's Website!";
 });
-document.getElementById("rexbutton").addEventListener("click", function() {
-    document.getElementById("rex").style.display = "block";
+rexbutton.addEventListener("click", function () {
+    rexbutton.textContent = "He is 7 years old.";
 });
-document.getElementById("snoopybutton").addEventListener("click", function() {
-    document.getElementById("rex").style.display = "block";
+snoopybutton.addEventListener("click", function () {
+    snoopybutton.textContent = "He is 4 years old.";
 });
+

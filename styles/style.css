@@ -12,6 +12,22 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
+h4 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: #0C0D0C;
+}
+
+h5 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: #0C0D0C;
+}
+
 p,
 li {
   font-size: 36px;

@@ -1,14 +1,13 @@
 const myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello world!";
 const myImage = document.querySelector("img");
-document.querySelector("html").addEventListener("click", function () {
-    alert("Ouch! Stop poking me!");
-  });
-myImage.onclick = () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/firefox-icon.png") {
-  myImage.setAttribute("src", "images/yellowlab.jpeg");
- } else {
-   myImage.setAttribute("src", "images/blacklab.jpeg");
- }
-};
+const rexbutton = document.querySelector("h4");
+const snoopybutton = document.querySelector("h5")
+myHeading.addEventListener("click", function () {
+    myHeading.textContent = "Welcome to Amanda's Website!";
+});
+document.getElementById("rexbutton").addEventListener("click", function() {
+    document.getElementById("rex").style.display = "block";
+});
+document.getElementById("snoopybutton").addEventListener("click", function() {
+    document.getElementById("rex").style.display = "block";
+});
